@@ -1,6 +1,9 @@
-#Usage
+#Placeholder-Polyfill
+
+<p>Add placeholders to your inputs in older browsers including IE6. For a non js fallback just set your labels to show using the .no-js class that Modernizr applies to the <html> tag</p>
 
 
+##Usage
 <pre>
 
 &lt;fieldset&gt; // Note - Can use any tag as a wrapper
