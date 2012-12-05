@@ -8,8 +8,6 @@
     &lt;input name=&quot;input_name &quot; id=&quot;input_name &quot; /&gt;
 &lt;/fieldset&gt;
 
-</pre>
-
 <code>
 fieldset {
 	position: relative;
@@ -23,3 +21,6 @@ label { // Preferably use a class
     padding: 5px; //or whatever the input padding is
 }
 </code>
+
+</pre>
+
