@@ -5,7 +5,6 @@
 
 ##Usage
 <pre>
-
 &lt;fieldset&gt; // Note - Can use any tag as a wrapper
 	&lt;label for=&quot;input_name&quot;&gt;Placeholder Text&lt;/label&gt;
     &lt;input name=&quot;input_name &quot; id=&quot;input_name &quot; /&gt;
@@ -24,6 +23,5 @@ label { // Preferably use a class
     padding: 5px; //or whatever the input padding is
 }
 </code>
-
 </pre>
 
