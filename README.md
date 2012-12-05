@@ -1,10 +1,14 @@
 #Usage
 
 
-<fieldset> // Note - Can use any tag as a wrapper
-	<label for="input_name">Placeholder Text</label>
-    <input name="input_name " id="input_name " />
-</fieldset>
+<pre>
+
+&lt;fieldset&gt; // Note - Can use any tag as a wrapper
+	&lt;label for=&quot;input_name&quot;&gt;Placeholder Text&lt;/label&gt;
+    &lt;input name=&quot;input_name &quot; id=&quot;input_name &quot; /&gt;
+&lt;/fieldset&gt;
+
+</pre>
 
 <code>
 fieldset {
