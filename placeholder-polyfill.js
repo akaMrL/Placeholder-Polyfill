@@ -14,7 +14,7 @@ if(!Modernizr.input.placeholder){
             	});
 
         	self.on('focus', function(){
-        	   label.hide();
+                label.hide();
         	})
         	.on('blur', function(){
                 if (self.attr('value') == '') {
