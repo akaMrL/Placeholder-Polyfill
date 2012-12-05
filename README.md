@@ -1,6 +1,6 @@
 #Placeholder-Polyfill
 
-<p>Add placeholders to your inputs in older browsers including IE6. For a non js fallback just set your labels to show using the .no-js class that Modernizr applies to the <html> tag</p>
+<p>Add placeholders to your inputs in older browsers including IE6. For a non js fallback just set your labels to show using the .no-js class that Modernizr applies to the &lt;html&gt; tag</p>
 
 
 ##Usage
