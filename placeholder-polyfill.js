@@ -1,26 +1,26 @@
 
 if(!Modernizr.input.placeholder){
-	$('input, textarea').each(function(){                                                                       
-    	var self = $(this),
+    $('input, textarea').each(function(){                                                                       
+        var self = $(this),
             placeholderText = self.attr('placeholder'),
-        	label = self.parent().find($('label')); 
+            label = self.parent().find($('label')); 
 
-    	if(placeholderText){
-        	label
-            	.show()
-            	.css({
-                	width: self.width(),
-                	height: self.height()
-            	});
+        if(placeholderText){
+            label
+                .show()
+                .css({
+                    width: self.width(),
+                    height: self.height()
+                });
 
-        	self.on('focus', function(){
+            self.on('focus', function(){
                 label.hide();
-        	})
-        	.on('blur', function(){
+            })
+            .on('blur', function(){
                 if (self.attr('value') == '') {
-            	   label.show();
-            	}
-        	});
-    	}                                                                              
-	});
+                    label.show();
+                }
+            });
+        }                                                                              
+    });
 }
