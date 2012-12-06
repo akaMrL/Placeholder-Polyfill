@@ -1,5 +1,5 @@
 
-if(!Modernizr.input.placeholder){
+if(!Modernizr.input.placeholder){ // comment
     $('input, textarea').each(function(){                                                                       
         var self = $(this),
             placeholderText = self.attr('placeholder'),
@@ -24,3 +24,4 @@ if(!Modernizr.input.placeholder){
         }                                                                              
     });
 }
+
